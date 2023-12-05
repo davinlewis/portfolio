@@ -1,18 +1,74 @@
-<!--index.html-->
-<!DOCTYPE
-html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- displays site properly based on user's device -->
-    <metaname="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davin Lewis</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>Davin Lewis</h1>
-    <p >Welcome to my website.</p>
-    <button class="my-btn" id="btn-1" >Press me!</button>
-    <button class="my-btn" id="btn-2" >Press me!</button>
-    <script src="js/buttonScript.js"></script>
+    <header>
+        <h1>Davin Lewis</h1>
+        <p>Student</p>
+    </header>
+    <div class="container">
+        <div class ="left">
+            <div class = "imgSlot">
+                <div class="image" id="image">
+                    <img src="images/buddy.jpg"
+                    width="270" 
+                    height="500">
+                </div>
+                <div class="image" id="image">
+                    <img src="images/ollie.jpeg"
+                    width="270" 
+                    height="500">
+                </div>
+            </div>
+            <div class="section" id="contact">
+                <h2>Contact</h2>
+                <p>djlewis2@nic.edu</p>
+            </div>
+        </div>
+    <div class ="right">
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself here.</p>
+        </div>
+        <div class="section" id="portfolio">
+            <h2>Portfolio</h2>
+                    <h3><a href="https://github.com/maidenlessCS/PA5">Tetris</a></h3>
+                    <p>A Tetris game made for CS class. Runs in SFML</p>
+                    <div class="imgSlot">
+                        <div class="image2" id="image2">
+                            <p><img src="images/Tetris.png"
+                                width="360" 
+                                height="360"></p>
+                        </div>
+                    </div>
+                    <h3><a href="https://moistmellojello.itch.io/bullet-blitz">Bullet Blitz</a></h3>
+                    <p>A fast-paced survival game made for a Game Jam (1 week)</p>
+                    <div class="imgSlot">
+                        <div class="image2" id="image2">
+                            <p><img src="images/BulletBlitz.png"
+                                width="360" 
+                                height="360"></p>
+                        </div>
+                    </div>
+                    <h3><a href="https://moistmellojello.itch.io/galf">Galf</a></h3>
+                    <p>A hole-in-one themed golf puzzle game made for a Game Jam(1 week)</p>
+                    <div class="imgSlot">
+                        <div class="image2" id="image2">
+                            <p><img src="images/Galf.png"
+                                width="360" 
+                                height="360"></p>
+                        </div>
+                    </div>
+                    
+                    <button type="button" onclick="alert('Ben Bonus:\nhttps://itch.io/profile/nurd\n https://github.com/DapperNurd')">Additional Credits</button>
+        </div>
+
+    </div>
+</div>
 </body>
+</html>

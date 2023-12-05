@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("../images/space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(69, 14, 172, 0.532);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+    font-size: 36px;
+}
+.container {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:auto;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:auto;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:auto;
+}
+.section {
+    background-color: #b5b1b16e;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgSlot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:auto;
+}
+.image {
+    background-color: #b5b1b16e;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Your initial styles remain unchanged */
+
+/* Mobile view adjustments inside @media query */
+/* Your initial styles remain unchanged */
+
+/* Mobile view adjustments inside @media query */
+@media (max-width: 650px) {
+    .container {
+      width: 100%;
+      flex-direction: column;
+      /* Adjust container width and flex-direction for smaller screens */
+    }
+  
+    .imgSlot {
+      width: 75%;
+      flex-direction: column;
+      /* Adjust image slot width for smaller screens */
+    }
+    
+
+    .image {
+      border-radius: 2px;
+      padding: 10px;
+      margin: 5px;
+      max-width: 90%; /* Adjust image max-width to fit smaller screens */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    /* Your existing CSS styles remain unchanged */
+
+/* Mobile view adjustments inside @media query */
+.image2 {
+    width:700%; /* Adjust the width for the image */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 95%; /* Adjust max-width to fit inside the box */
+    display: block; /* Ensures block-level display for horizontal centering */
+    margin: 0 auto; /* Center the image horizontally */
+}
+    /* Add any other necessary adjustments for smaller screens */
+
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: column;
+      /* Ensure portfolio items wrap on smaller screens */
+    }
+  
+    .section {
+      padding: 10px; /* Reduce padding for smaller screens */
+      margin: 5px; /* Reduce margin for smaller screens */
+      max-width: 90%; /* Adjust max-width to fit smaller screens */
+      /* Adjust any other necessary styles for smaller screens */
+    }
+    
+    /* Add more specific adjustments for elements to fit within the screen */
+  }
+  
+  
